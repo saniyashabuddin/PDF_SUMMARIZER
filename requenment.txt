@@ -1,0 +1,14 @@
+nltk (Natural Language Toolkit):
+Used for text preprocessing such as sentence tokenization and removing stopwords, enabling meaningful text summarization.
+
+streamlit:
+Provides the interactive web interface for uploading PDFs, displaying input fields, and showing results in a user-friendly way.
+
+pymupdf (imported as fitz):
+Used to extract text from PDF files, including reading the content page by page.
+
+scikit-learn:
+Specifically uses TfidfVectorizer to calculate TF-IDF scores for topic-based sentence ranking in summarization.
+
+reportlab:
+Generates and saves the summary output as a PDF file, including formatting and layout of text content.
